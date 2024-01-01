@@ -85,6 +85,25 @@ Boot into the installation drive and Arch is installed
 
 Here the installation will be command line only which is good. This way, it's lightweight and absolutely free of any bloated software. It's now on you how you want it to be and how should it perform.
 
+I recommend going with xfce desktop environment for initial setup and then moving towards setting up dwm. xfce is fast and lightweight which works really well for starting up the initial work. Suckless terminal is one of my favourite so I recommended that one for a good experience. 
+
+## Additional Resources
+
+### Arch Official Website 
+https://archlinux.org/
+
+### Arch Official Installation Guide
+https://wiki.archlinux.org/title/installation_guide
+
+### Suckless Official Website 
+https://suckless.org/
+
+### NeoVim Official Website
+https://neovim.io/
+
+### NvChad Official Website 
+https://nvchad.com/
+
 ## Some of my setups when I made this repository
 <p align=center>
 <img src="https://github.com/PythonHacker24/Arch-Linux-Installation-Guide/blob/main/desktop.png?raw=true">
