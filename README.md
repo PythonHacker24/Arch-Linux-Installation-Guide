@@ -1,4 +1,8 @@
-# ⚡️ ARCH Installation Guide 🗡️
+# Simple Arch Installation Guide
+
+<p align=center>
+<img src="https://github.com/PythonHacker24/Arch-Linux-Installation-Guide/blob/main/arch_logo.png?raw=true">
+</p>
 
 ## A Simple Introduction
 
