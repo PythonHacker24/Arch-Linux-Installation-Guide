@@ -26,51 +26,51 @@ mkdir /mnt/boot
 mount "boot partition (Ex. /dev/sda1)" /mnt/boot
 
 ### Essential Tools Installation  
-pacstrap /mnt base base-devel linux linux-firmware vim
+`pacstrap /mnt base base-devel linux linux-firmware vim`
 
 ### FSTAB Generation
-genfstab -U /mnt >> /mnt/etc/fstab
+`genfstab -U /mnt >> /mnt/etc/fstab`
 
 ### Get the arch run up
-arch-chroot /mnt /bin/bash
+`arch-chroot /mnt /bin/bash`
 
 ### Install Network-Manager and GRUB
-pacman -S networkmanager grub 
+`pacman -S networkmanager grub`
 
 ### Enable the Network Manager 
-systemctl enable NetworkManager
+`systemctl enable NetworkManager`
 
 ### GRUB installation
-grub-install /dev/sda (just the drive)
+`grub-install /dev/sda (just the drive)`
 
 ### GRUB Configuration File Generation 
-grub-mkconfig -o /boot/grub/grub.cfg
+`grub-mkconfig -o /boot/grub/grub.cfg`
 
 ### Setting Passwork for the root user
-passwd 
+`passwd` 
 
 ### Generating Locale 
-vim /etc/locale.gen
-(Uncomment the language to use)
+`vim /etc/locale.gen`
+`(Uncomment the language to use)`
 
 ### Generate the Locale File 
-vim /etc/locale.conf
-LANG=en-US.UTF-8
+`vim /etc/locale.conf`
+`LANG=en-US.UTF-8`
 
 ### Setting up the Hostname
-vim /etc/hostname 
-(add the hostname)
+`vim /etc/hostname` 
+`(add the hostname)`
 
 ### Setting up the hostname 
-ln -sf /usr/share/zoneinfo/<Region>/<Timezone>
+`ln -sf /usr/share/zoneinfo/<Region>/<Timezone>`
 
 ### Exit the CHROOT Environment
-exit
+`exit`
 
 ### Unmount the installation medium
-umount -R /mnt
+`umount -R /mnt`
 
 ### Reboot the system 
-reboot
+`reboot`
 
 Boot into the installation drive and Arch is installed 
