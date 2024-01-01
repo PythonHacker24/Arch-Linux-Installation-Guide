@@ -83,9 +83,9 @@ Here the installation will be command line only which is good. This way, it's li
 
 ## Some of my setups when I made this repository
 <p align=center>
-<img src="https://github.com/PythonHacker24/PythonHacker24/blob/main/desktop.png?raw=true">
+<img src="https://github.com/PythonHacker24/Arch-Linux-Installation-Guide/blob/main/desktop.png?raw=true">
 </p>
 
 <p align=center>
-<img src="https://github.com/PythonHacker24/PythonHacker24/blob/main/desktop.png?raw=true">
+<img src="https://github.com/PythonHacker24/Arch-Linux-Installation-Guide/blob/main/nvim.jpeg?raw=true">
 </p>
