@@ -1,29 +1,29 @@
 # ⚡️ ARCH Installation Guide 🗡️
 
 ### Setting up WiFi connection
-iwctl
-device list
-station "device" connect "SSID"
+`iwctl`
+`device list`
+`station "device" connect "SSID"`
 
 ### Time Date Settings 
-timedatectl set-ntp true
+`timedatectl set-ntp true`
 
 ### listing drive
-lsblk
+`lsblk`
 
 ### Partition Management 
-cfdisk "disk path"
+`cfdisk "disk path"`
 
-1. Atleast 512MB for the BootLoader (512 MB works well)
-2. Rest for the Root Partition
+`1. Atleast 512MB for the BootLoader (512 MB works well)`
+`2. Rest for the Root Partition`
 
 ### Making the file partition 
-mkfs.ext4 "disk path"
+`mkfs.ext4 "disk path"`
 
 ### path mounting 
-mount "installation partition (Ex. /dev/sda2)" /mnt 
-mkdir /mnt/boot
-mount "boot partition (Ex. /dev/sda1)" /mnt/boot
+`mount "installation partition (Ex. /dev/sda2)" /mnt`
+`mkdir /mnt/boot`
+`mount "boot partition (Ex. /dev/sda1)" /mnt/boot`
 
 ### Essential Tools Installation  
 `pacstrap /mnt base base-devel linux linux-firmware vim`
