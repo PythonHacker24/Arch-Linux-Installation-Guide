@@ -1,5 +1,9 @@
 # ⚡️ ARCH Installation Guide 🗡️
 
+## A Simple Introduction
+
+This Guide to Arch Installation is meant to be Simple by Desgin. The Arch OS is Simple by design and hence is this guide. The Official Guide is recommended as well as this serves as supplementary to installation. This was written step by step when I was Installing the OS for the first time and hence contains tested commands.  
+
 ### Setting up WiFi connection
 `iwctl`
 `device list`
@@ -73,4 +77,15 @@
 ### Reboot the system 
 `reboot`
 
-Boot into the installation drive and Arch is installed 
+Boot into the installation drive and Arch is installed
+
+Here the installation will be command line only which is good. This way, it's lightweight and absolutely free of any bloated software. It's now on you how you want it to be and how should it perform.
+
+## Some of my setups when I made this repository
+<p align=center>
+<img src="https://github.com/PythonHacker24/PythonHacker24/blob/main/desktop.png?raw=true">
+</p>
+
+<p align=center>
+<img src="https://github.com/PythonHacker24/PythonHacker24/blob/main/desktop.png?raw=true">
+</p>
